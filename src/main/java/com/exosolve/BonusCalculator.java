@@ -10,6 +10,28 @@ public class BonusCalculator {
 //    Calculate final salary.
 
     public static void main(String[] args) {
+        int salary = 5000;
+        int number_of_years = 6;
+        double bonus = 0;
+        if
+        (number_of_years < 1) {
+            bonus = 0;
+        } else if
+        (number_of_years <= 3) {
+            bonus = 0.5;
+        } else if
+        (number_of_years <= 6) {
+            bonus = 0.10;
+        }  else {
+                                                bonus = 0.15; }
+        double bonusAmount = salary * bonus;
+        double finalSalary = salary + bonusAmount;
+
+        System.out.println("Final salary:" + finalSalary);
+
+
+
+
 
     }
 }
