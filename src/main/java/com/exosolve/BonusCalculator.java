@@ -10,6 +10,8 @@ public class BonusCalculator {
 //    Calculate final salary.
 
     public static void main(String[] args) {
+        System.out.println(
 
+        );
     }
 }
