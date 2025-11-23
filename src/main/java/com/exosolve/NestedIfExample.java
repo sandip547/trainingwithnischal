@@ -1,9 +1,13 @@
 package com.exosolve;
 
 import java.util.Scanner;
-
 public class NestedIfExample {
     public static void main(String[] args) {
+        //this is the example for nestedIf
+        /*
+        In this example we have taken
+        points in to considration
+         */
         int points = 0;
         int min_programming_score = 3;
         int input_iq = 75;
